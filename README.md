@@ -39,7 +39,7 @@ Please build your page in [task1/index.html](task1/index.html). You are welcome 
 
 #### Assets
 
-* The assets are provided in `task2/assets/text.txt` give you the text to 
+* The assets are provided in `task1/assets/text.txt` give you the text to 
 put on the page.
 * For the arrows, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 * Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
@@ -53,7 +53,7 @@ You can assume that all the input fields are `<input />` tags. All non-text inpu
 Please build your page in `task2/index.html`. You are welcome to create as many CSS files that you need in the `task2` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 #### Assets
-* The assets are provided in `task3/assets` and provide you with the background and calendar.
+* The assets are provided in `task2/assets` and provide you with the background and calendar.
 * For the two car images you can just use emojis (remember: emojis are text characters too).
 * For the right arrow and the magnifying glass, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 
