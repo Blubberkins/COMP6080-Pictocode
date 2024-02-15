@@ -33,7 +33,7 @@ You will _need_ to watch at least the following lectures to finish the assessmen
 
 ### 2.1. Task 1 - Static, fixed size page
 
-Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 1981 x 844 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
+Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 1555 x 808 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
 
 Please build your page in [task1/index.html](task1/index.html). You are welcome to create as many CSS files that you need in the `task1` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
@@ -46,7 +46,7 @@ put on the page.
 
 ### 2.2. Task 2 - Static, fixed size page
 
-Build a responsive page that complies with [task2/page_big.png](task2/page_big.png) and [task2/page_small.png](task2/page_small.png). The big page is 1044 x 577 pixels, and the small page is 501 x 592 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
+Build a responsive page that complies with [task2/page_big.png](task2/page_big.png) and [task2/page_small.png](task2/page_small.png). The big page is 1040 x 577 pixels, and the small page is 501 x 592 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 You can assume that all the input fields are `<input />` tags. All non-text inputs do not need any drop down behaviour or dynamic styling when being clicked etc. For text inputs they can be assumed to be static text inputs that have a text of colour `#000000` when text is inputted. None of the text inputs need to deal with text longer than 10 characters.
 
