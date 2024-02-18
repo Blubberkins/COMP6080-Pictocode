@@ -2,7 +2,7 @@
 
 ## Change Log
 
-N/A
+* 18/02: Added "if applicable" comment to pseudo classes; updated text for task3 - there is some confusion between the terms "Pro" and "Business" in the enterprise screenshots. You can use those two words interchangably, it won't matter which you use.
 
 ## 1. Before you start
 
@@ -118,7 +118,7 @@ Your assignment will be hand-marked by tutor(s) in the course according to the c
 		<td>
 			<ul>
 				<li>Rendered static HTML page accurately matches the reference image provided for each task. <i>Please note: For text, don't expect every word to match every position on every line. Different screens, browsers, operating systems may display text slightly differently. It's normal for words to overflow in different positions.</i></li>
-				<li>For specified tasks, pseudo-class behaviour satisfies the task requirements</li>
+				<li>For specified tasks, if applicable, pseudo-class behaviour satisfies the task requirements</li>
 				<li>For specified tasks, rendered HTML page renders appropriately for intermediate sizes</li>
 			</ul>
 		</td>
