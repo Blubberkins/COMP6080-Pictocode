@@ -3,6 +3,7 @@
 ## Change Log
 
 * 18/02: Added "if applicable" comment to pseudo classes; updated text for task3 - there is some confusion between the terms "Pro" and "Business" in the enterprise screenshots. You can use those two words interchangably, it won't matter which you use.
+* 19/02: Added missing statement in task 2 around 'Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 501 and 1040, combined with some combination of heights between 577 and 592, the page should still reflect the same general structure.'. Mostly completing this task results in this anyway, so it should be a fairly minor adjustment.
 
 ## 1. Before you start
 
@@ -49,6 +50,8 @@ put on the page.
 Build a responsive page that complies with [task2/page_big.png](task2/page_big.png) and [task2/page_small.png](task2/page_small.png). The big page is 1040 x 577 pixels, and the small page is 501 x 592 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 You can assume that all the input fields are `<input />` tags. All non-text inputs do not need any drop down behaviour or dynamic styling when being clicked etc. For text inputs they can be assumed to be static text inputs that have a text of colour `#000000` when text is inputted. None of the text inputs need to deal with text longer than 10 characters.
+
+Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 501 and 1040, combined with some combination of heights between 577 and 592, the page should still reflect the same general structure.
 
 Please build your page in `task2/index.html`. You are welcome to create as many CSS files that you need in the `task2` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
