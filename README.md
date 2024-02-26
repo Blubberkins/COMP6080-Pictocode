@@ -2,7 +2,9 @@
 
 ## Change Log
 
-N/A
+* 18/02: Added "if applicable" comment to pseudo classes; updated text for task3 - there is some confusion between the terms "Pro" and "Business" in the enterprise screenshots. You can use those two words interchangably, it won't matter which you use.
+* 19/02: Added missing statement in task 2 around 'Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 501 and 1040, combined with some combination of heights between 577 and 592, the page should still reflect the same general structure.'. Mostly completing this task results in this anyway, so it should be a fairly minor adjustment.
+* 20/2: Updated assets description for task 2 - Rephrase to clarify the assets provided and the suggested fonts.
 
 ## 1. Before you start
 
@@ -33,29 +35,31 @@ You will _need_ to watch at least the following lectures to finish the assessmen
 
 ### 2.1. Task 1 - Static, fixed size page
 
-Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 1981 x 844 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
+Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 1555 x 808 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
 
 Please build your page in [task1/index.html](task1/index.html). You are welcome to create as many CSS files that you need in the `task1` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 #### Assets
 
-* The assets are provided in `task2/assets/text.txt` give you the text to 
+* The assets are provided in `task1/assets/text.txt` give you the text to 
 put on the page.
 * For the arrows, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
 * Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
 
 ### 2.2. Task 2 - Static, fixed size page
 
-Build a responsive page that complies with [task2/page_big.png](task2/page_big.png) and [task2/page_small.png](task2/page_small.png). The big page is 1044 x 577 pixels, and the small page is 501 x 592 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
+Build a responsive page that complies with [task2/page_big.png](task2/page_big.png) and [task2/page_small.png](task2/page_small.png). The big page is 1040 x 577 pixels, and the small page is 501 x 592 pixels. Your single page (note that you're not using two separate HTML files) should like identical to either of these pages depending on the window sized the browser is at.
 
 You can assume that all the input fields are `<input />` tags. All non-text inputs do not need any drop down behaviour or dynamic styling when being clicked etc. For text inputs they can be assumed to be static text inputs that have a text of colour `#000000` when text is inputted. None of the text inputs need to deal with text longer than 10 characters.
+
+Your are expected to have reasonable intermediate states. In other words, if the window size is some combination of widths between 501 and 1040, combined with some combination of heights between 577 and 592, the page should still reflect the same general structure.
 
 Please build your page in `task2/index.html`. You are welcome to create as many CSS files that you need in the `task2` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
 #### Assets
-* The assets are provided in `task3/assets` and provide you with the background and calendar.
-* For the two car images you can just use emojis (remember: emojis are text characters too).
-* For the right arrow and the magnifying glass, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
+* The asset(s) are provided in `task2/assets`.
+* For the right arrow, you are able to use a reasonable emoji (or image of your choice found online) to display that element.
+* Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
 
 ### 2.3. Task 3 - Responsive static page
 
@@ -118,7 +122,7 @@ Your assignment will be hand-marked by tutor(s) in the course according to the c
 		<td>
 			<ul>
 				<li>Rendered static HTML page accurately matches the reference image provided for each task. <i>Please note: For text, don't expect every word to match every position on every line. Different screens, browsers, operating systems may display text slightly differently. It's normal for words to overflow in different positions.</i></li>
-				<li>For specified tasks, pseudo-class behaviour satisfies the task requirements</li>
+				<li>For specified tasks, if applicable, pseudo-class behaviour satisfies the task requirements</li>
 				<li>For specified tasks, rendered HTML page renders appropriately for intermediate sizes</li>
 			</ul>
 		</td>
