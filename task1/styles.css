@@ -4,13 +4,13 @@ body {
     background-color: #003781;
     color: #ffffff;
     font-family: Arial;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .wrapper {
     display: flex;
     justify-content: space-between;
     margin-left: 3.5em;
-    margin-right: 3.5em;
+    margin-right: 2.5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -19,7 +19,8 @@ body {
     max-width: max-content;
     flex: 1em;
     margin: 0.75em;
-    padding: 0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
     margin-bottom: 3em;
 }
 h1 {
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight: normal;
 }
 .button {
