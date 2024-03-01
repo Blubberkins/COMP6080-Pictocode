@@ -169,6 +169,14 @@ body {
     right: -4px;
 }
 
+#enterprise .all-features {
+    color: #c8c8c8;
+}
+
+#enterprise .all-features::after {
+    color: #c8c8c8;
+}
+
 
 .svg-container {
     display: inline-block;
