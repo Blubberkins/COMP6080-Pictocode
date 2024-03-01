@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: calc(10px + 2vh) calc(10px + 1.5vw);
 
     border: 1px solid #c4c7cd;
@@ -153,6 +153,23 @@ body {
     line-height: 1;
 }
 
+.all-features {
+    height: 5%;
+    margin-top: auto;
+    color: #757575;
+    font-size: 0.7em;
+}
+
+.all-features::after {
+    content: "\02C7";
+    font-size: 2em;
+    color: #757575;
+    position: relative;
+    top: 12px;
+    right: -4px;
+}
+
+
 .svg-container {
     display: inline-block;
     position: relative;
@@ -236,11 +253,11 @@ body {
     }
 
     .plan-description {
-        height: 18%;
+        height: 11%;
     }
 
     .plan-price {
-        height: 25%;
+        height: 14%;
     }
 
     .flex-wrapper {
@@ -249,16 +266,60 @@ body {
     }
 
     .plan-price-text {
-        font-size: 2.8em;
+        font-size: 2.7em;
     }
     
     .plan-annual {
         top: -5px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .plan-monthly {
         display: none;
+    }
+
+    .plan-button-space {
+        height: 15%;
+    }
+
+    .button-plan {
+        height: 70%;
+        width: 30%;
+    
+        border-style: solid;
+        border-color: #333333;
+        border-radius: 40px;
+        background-color: white;
+    
+        font-size: 0.95em;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    #enterprise .button-plan {
+        width: 39%;
+    }
+
+    #contact-link {
+        display: none;
+    }
+
+    .plan-includes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45%;
+    
+        font-size: 1em;
+        padding-bottom: 0px;
+    }
+    
+    .plan-feature {
+        font-size: 1.2rem;
+    }
+
+    .svg-enterprise {
+        top: 0px;
     }
 
 }
